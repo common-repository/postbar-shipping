@@ -1,0 +1,484 @@
+
+#postbar-order-tracking-information{
+    border: 2px solid #ff9e3b;
+}
+#postbar-order-tracking-information button.handlediv,
+#postbar-order-tracking-information button.handlediv:hover{
+    background-color: #ff9e3b !important;
+}
+#postbar-order-tracking-information h2{
+    position: relative;
+    background-color: #ff9e3b;
+    display: flex;
+    align-items: center;
+}
+#postbar-order-tracking-information h2:before{
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-image: url("../images/shipping-and-location.png");
+    background-size: 100% 100%;
+}
+#postbar-order-tracking-information h2 span{
+    margin-right: 40px;
+}
+.pws-container{
+    background-color: #ffffff;
+    padding: 15px 2%;
+    border: 1px solid #e0e0e0;
+    margin: 0 0 20px 0;
+    display: inline-block;
+    width: 96%;
+}
+.pws-container-title{
+    background: linear-gradient(#ffffff, #f2f2f2);
+    padding: 7px 2%;
+    border: 1px solid #e0e0e0;
+    border-bottom: 0;
+    width: 96%;
+    font-weight: bold;
+    display: flex;
+}
+.pws-container-title .title-text{
+    margin-left: auto;
+}
+#pws_header{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+#pws_header .col-r{
+    margin-left: auto;
+}
+#pws_header img.postbar-logo{
+    height: 110px;
+}
+#pws_header h1{
+    font-family: 'b titr', 'btitr', tahoma, Arial,sans-serif;
+}
+.pws-row{
+    width: 100%;
+    display: inline-block;
+}
+.pws-row .col-3{
+    width: 30%;
+    float: right;
+}
+.pws-row .col-4{
+    width: 40%;
+    float: right;
+}
+.pws-row .col-6{
+    width: 60%;
+    float: right;
+}
+.pws-row .col-7{
+    width: 70%;
+    float: right;
+}
+.pl-15p{
+    padding-left: 15px;
+}
+.pws-alarm{
+    display: flex;
+    background-color: rgba(255, 0, 0, 0.158);
+}
+.pws-alarm .dashicons-info{
+    font-size: 30px;
+    margin-left: 10px;
+    width: 30px;
+}
+.text-justify{
+    text-align: justify;
+}
+.pws-form-table{
+    width: 100%;
+    text-align: right;
+}
+.pws-form-table td input[type="text"],
+.pws-form-table td input[type="password"],
+.pws-form-table td textarea{
+    width: 100%;
+    padding: 6px 10px;
+}
+#pws-login-btn{
+    margin-top: 20px;
+    background-color: #0b9a0b;
+    color: white;
+    border: 1px solid green;
+    outline: 0;
+}
+.pws-text-center{
+    text-align: center;
+}
+.h-200p{
+    height: 200px;
+}
+.pws-user-info{
+    width: 100%;
+    text-align: right;
+}
+.pws-user-info th{
+    width: 30%;
+}
+.pws-user-info td{
+    width: 70%;
+}
+.pws-user-info th,
+.pws-user-info td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.pws-wide-form-table{
+    width: 100%;
+    text-align: right;
+}
+.pws-wide-form-table th{
+    width: 25%;
+}
+.pws-wide-form-table td{
+    width: 75%;
+}
+.pws-wide-form-table th,
+.pws-wide-form-table td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.pws-wide-form-table td input[type="text"],
+.pws-wide-form-table td textarea{
+    width: 100%;
+    padding: 7px 14px;
+}
+.pws-wide-form-table td select{
+    width: 100%;
+    max-width: 100%;
+}
+.pws-container .button-primary{
+    margin-top: 20px;
+}
+.postbar_order_already_set{
+    background-color: #62ae24;
+    padding: 30px 20px;
+    color: white;
+    font-size: 15px;
+    border: 1.2px solid #4b970d;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+.postbar_order_already_set a{
+    color: rgb(179, 255, 0);
+}
+.postbar_order_tracking_details{
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+}
+#postbar_shipping_loading{
+    display: none;
+}
+.pws-wide-form-table.c3 td{
+    width: 36.5%;
+    padding-right: 1%;
+}
+.postbar-order-table-title{
+    background-color: #dfdfdf;
+}
+.postbar-order-table-title th{
+    padding: 10px 10px;
+    color: #000000;
+    font-size: 15px;
+}
+#admin_services_content_container .shipping-row {
+    display: flex;
+    margin-top: 5px;
+}
+#admin_services_content_container .shipping-row .shipping-selection {
+    width: 10%;
+}
+#admin_services_content_container .shipping-row .shipping-details {
+    width: 90%;
+    display: flex;
+}
+#admin_services_content_container .shipping-row .shipping-details .details-item:nth-child(1) {
+    width: 60%;
+}
+#admin_services_content_container .shipping-row .shipping-details .details-item:nth-child(2) {
+    width: 20%;
+}
+#admin_services_content_container .shipping-row .shipping-details .details-item:nth-child(3) {
+    width: 20%;
+}
+#admin_services_content_container .shipping-row .shipping-details .details-item .label {
+    display: none;
+}
+.shipping-price-calc-type-row{
+    margin-bottom: 8px;
+}
+th.align-baseline{
+    vertical-align: baseline;
+}
+.lable-guide{
+    color: #b1b1b1;
+    font-size: 13px;
+}
+#postex_order_details_container .err{
+    border: 1.2px solid red;;
+}
+#postex_order_details_container .err-msg{
+    color: red;
+    margin-top: 2px;
+}
+#shipping_conditions_container{
+    display: none;
+}
+#shipping_conditions_container.visible{
+    display: table-cell;
+}
+#shipping_conditions_container .specified-condition-row{
+    margin-bottom: 10px;
+}
+#btn_CSHM_opener{
+
+}
+#btn_CSHM_opener:hover{
+
+}
+#conditional_shipping_modal{
+
+}
+#conditional_shipping_modal.unvisible{
+    display: none;
+}
+#conditional_shipping_modal #CSHM_content{
+    background-color: #ffffff;
+    width: 60%;
+    margin: 20px auto;
+    border: 1px solid #e5e5e5;
+    font-family: inherit;
+    border-radius: 10px;
+}
+#conditional_shipping_modal #CSHM_header{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#e9e9e9, #acacac);
+    border-bottom: 1px solid #acacac;
+    padding: 10px 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+#conditional_shipping_modal #CSHM_header h3{
+    font-size: 16px;
+    margin: 0;
+    flex: 1 1;
+    color: #000000;
+}
+#CSHM_close_modal_icon{
+    width: 25px;
+    height: 25px;
+    background-image: url('../images/close.png');
+    background-size: 100% 100%;
+    margin-left: 12px;
+    cursor: pointer;
+}
+#conditional_shipping_modal #CSHM_body{
+    padding: 20px;
+}
+#conditional_shipping_modal #CSHM_body .CSHM-form-row{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+#conditional_shipping_modal #CSHM_body .CSHM-form-row .CSHM-label{
+    width: 30%;
+    display: inline-block;
+    font-weight: bold;
+}
+#conditional_shipping_modal #CSHM_body .CSHM-form-row .CSHM-input{
+    flex: 1 1 auto;
+    display: inline-block;
+    max-width: 100%;
+}
+.CSHM-condition-fields{
+    display: none;
+}
+.CSHM-condition-fields.show{
+    display: block;
+}
+#condition_method_title_container{
+    display: none;
+}
+#conditional_shipping_modal #CSHM_footer{
+    padding: 10px 20px 20px 20px;
+    text-align: center;
+}
+#conditional_shipping_modal #CSHM_footer button{
+    cursor: pointer;
+    margin: 0 8px;
+    font-size: 15px !important;
+    font-family: inherit;
+    font-weight: normal;
+    padding: 8px 25px;
+    color: #000000;
+    border: 1px solid;
+    border-color: #ccc #ccc #bbb;
+    border-radius: 3px;
+    background: #e6e6e6;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);
+    line-height: 1;
+}
+#conditional_shipping_modal #CSHM_footer button#btn_CSHM_save{
+    border-color: #007bff;
+    box-shadow: inset 0 1px 0 #00a4ff, inset 0 15px 17px #09a0f3, inset 0 -5px 12px #025fc4;
+    background-color: #0694e3;
+    color: #ffffff;
+}
+#postex_submit_order_container{
+    margin-bottom: 15px;
+}
+#postex_submit_order_container #submit_note_msg{
+    margin-top: 5px;
+}
+#postexMapContainer{ 
+    height: 400px; 
+}
+.postex-mt-15{
+    margin-top: 15px;
+}
+a.postex-pdf-btn{
+    text-decoration: none;
+    background: linear-gradient(#e43c3c, #390f0f);
+    color: #ffffff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 20px;
+    width: 135px;
+    height: 30px;
+    position: relative;
+}
+a.postex-pdf-btn:hover{
+    background: linear-gradient(#e43c3c, #a81b1b, #830909, #390f0f);
+}
+a.postex-pdf-btn:before{
+    content: "";
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    top: -8px;
+    right: 4px;
+    background: url("../images/adobe-pdf-icon.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/***** Help Landing *****/
+#postbar-hlp-head{
+    background-image: linear-gradient(to right, #e86261, #ffc371);
+    color: #000000;
+}
+#postbar-hlp-head .container,
+#postbar-hpl-settings .container,
+#postbar-hpl-about .container{
+    padding: 20px 20px;
+}
+#postbar-hlp-head h1{
+    font-size: 28px;
+    margin: 20px 0 30px 0;
+}
+#postbar-hlp-head h2,
+#postbar-hpl-settings h2,
+#postbar-hpl-about h2{
+    font-size: 22px;
+    font-weight: bold;
+}
+#postbar-hlp-head ul li{
+    font-size: 16px;
+    list-style: disc;
+    margin: 10px 0;
+}
+ul#postbar-hlp-top-nav{
+    padding-right: 25px;
+    list-style: none;
+    padding: 0px 0 20px 0;
+    border-bottom: 1px solid black;
+}
+ul#postbar-hlp-top-nav li{
+    display: inline-block; 
+    padding-left: 25px;
+}
+ul#postbar-hlp-top-nav li a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #000000;
+}
+#postbar-hlp-head .row,
+#postbar-hpl-settings .row,
+#postbar-hpl-about .row{
+    width: 100%;
+    max-width: 100%;
+    display: inline-block;
+}
+#postbar-hlp-head .row .col-md-6,
+#postbar-hpl-settings .row .col-md-6,
+#postbar-hpl-about .row .col-md-6{
+    width: 50%;
+    float: right;
+}
+#postbar-hlp-head .img-wrapper,
+#postbar-hpl-settings .img-wrapper,
+#postbar-hpl-about .img-wrapper{
+    text-align: center;
+}
+#postbar-hlp-head .img-wrapper img,
+#postbar-hpl-settings .img-wrapper img,
+#postbar-hpl-about .img-wrapper img{
+    max-width: 90%;
+}
+#postbar-hlp-head .features-list{
+    padding-right: 20px;
+}
+#postbar-hpl-settings{
+    background-color: #ffffff;
+}
+#postbar-hpl-settings h2{
+    margin-bottom: 60px;
+}
+#postbar-hpl-settings .row{
+    margin-bottom: 60px;
+}
+#postbar-hpl-settings .setting-info{
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify;
+}
+#postbar-hpl-settings .setting-step-num{
+    font-size: 20px;
+    font-weight: bold;
+    color: #2b9fd7;
+    border: 2px solid #2b9fd7;
+    padding: 20px;
+    float: right;
+    margin-left: 20px;
+}
+#postbar-hpl-about{
+    background-image: linear-gradient(to right, #e86261, #ffc371);
+    color: #000000;
+}
+#postbar-hpl-about .about-text p{
+    font-size: 18px;
+    text-align: justify;
+}
+#postbar-hpl-about h2{
+    text-align: center;
+    font-size: 24px;
+}
+#postex-hlp-video{
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+.postex_player_container{
+    width: 70%;
+    margin: 20px auto;
+}
+/***** End: Help Landing *****/
